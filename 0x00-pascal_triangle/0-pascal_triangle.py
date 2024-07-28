@@ -19,8 +19,6 @@ def pascal_triangle(n):
         if len(n_list) <= 1:
             n_list.append(inner_list)
         else:
-            print(i)
-            print(n_list)
             temp_list = n_list[i - 1]
 
             for j in range(i + 1):
@@ -32,3 +30,6 @@ def pascal_triangle(n):
             n_list.append(inner_list)
 
     return n_list
+
+
+print(pascal_triangle(10))
