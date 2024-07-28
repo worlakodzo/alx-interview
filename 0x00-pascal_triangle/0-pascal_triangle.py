@@ -32,4 +32,5 @@ def pascal_triangle(n):
     return n_list
 
 
-print(pascal_triangle(10))
+if __name__ == "__main__":
+    print(pascal_triangle(10))
